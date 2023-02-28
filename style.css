@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.contact ul{
+    font-family: Manrope;
+    display:flex;
+    list-style-type: none;
+    background-color: #ECF3FF;
+    color:#454A6D;
+}
+.contact ul li{
+    top:14px;
+    left: 91px;
+}
+.contact img{
+    height:22px;
+    padding : 0 8px;
+}
+.contact{
+    display : flex;
+    align-items: center;
+}
+.left ul li{
+    padding : 0 12px;
+}
+.right ul li{
+left: 1009px;
+top: 14px;
+}
+
+.bottom ul{
+    display : flex;
+    list-style-type: none;
+}
+
+.bottom {
+    font-family: Manrope;
+    display:flex;
+    list-style-type: none;
+    height:100px;
+    background-color: #ECF3FF;
+    color:#454A6D;
+}
+.bottom ul img{
+    position:relative;
+height: 58px;
+top: 15px;
+}
+
+.b_right{
+    justify-content:flex-end;
+    height:25px;
+    padding : 0 12px;
+}
+
+.main_body {
+    background-image: url('./background.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main_body img{
+    height : 822px;   
+    padding-left: 650px;;
+}
+
+.services{
+    height: 699px;
+    background-color:#FFFFFF;
+    color:black;
+    font-family: 'Manrope';
+    display:flex;
+}
+
+
